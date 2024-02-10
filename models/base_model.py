@@ -6,9 +6,9 @@ from datetime import datetime
 
 
 class BaseModel:
-    """Represents the BaseModel of the  project."""
+    """Represents the BaseModel of the project."""
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         """Initialize a new BaseModel
 
         """
